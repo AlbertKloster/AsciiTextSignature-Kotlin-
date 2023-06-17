@@ -1,17 +1,23 @@
-# Stage 1/4: Primitive Art
+# Stage 2/4: Star quality
 ## Description
-An ASCII generator is an awesome program that can output any document, picture, or text file in 2-D using only text symbols. It is often used to print name tag badges for various conferences and meetings. In this project, you will write an ASCII generator that can print name tags.
-
-Let's start with generating the simplest name tag with just a first name and a last name on it. Your task is to generate a tag for someone with the first name "Hyper" and the last name "Skill". You also need to create a frame around the text as shown in the example.
+Now, let’s make our program more versatile. In this stage, you will write a program that creates a name tag for unique first and last names.
 
 ## Objectives
-Print the string “Hyper Skill” in a frame.
+Your program should read first and last names from standard input and then output them in a frame. The name tag should contain the first and last name with a single space between them, a single space at the beginning, and another space at the end.
 
-Your program should output the string “Hyper Skill” in a frame. Left and right borders are marked with the symbol `|`, the top border is marked with `_`, and the bottom border with `•`.
+The frame should consist of asterisk symbols `*`. Remember about single spaces between the border of the tag and the personal name.
 
-## Example
+## Examples
+<b>Example 1</b><i>, when the user inputs</i> `Albert Einstein`:
 ```
- _____________
-| Hyper Skill |
- •••••••••••••
+*******************
+* Albert Einstein *
+*******************
+```
+
+<b>Example 1</b><i>, when the user inputs</i> `Nikola Tesla`:
+```
+****************
+* Nikola Tesla *
+****************
 ```
